@@ -33,7 +33,7 @@ function CardTwo(props) {
       transition={{ duration: 0.5 }}
     >
       <img
-        className="object-fill h-[300px] pb-10"
+        className="object-fill h-[225px] pb-10"
         // src="https://wallpaper.dog/large/10702676.jpg"
         src={props.details.src}
         // style={{ width: "100%", height: "400px" }}

@@ -2,28 +2,28 @@
     "resources": [
         {
       "name": "Divide By Zero",
-      "src": "/DBZposter.jpeg",
+      "src": "/divideByZero.png",
       "content": "Pan-India level competitions and hackathons with international participation also and participation from all the top tech institutions in India. Last edition had over 20k participation cumulatively"
         },
         {
       "name": "Code Golf",
-      "src": "/images/euristica.svg",
-      "content": "Code Golf is a programming event far from the usual ‘serious’ programming contests. It is an individual short-duration (3 to 4 hours) programming event conducted on HackerRank with the prerequisites of basic programming skills. The event requires the programmer to solve the problem in the shortest possible code. Scoring will be based on the length of the code written."
+      "src": "/code golf.png",
+      "content": "Pan-India level competitions and hackathons with international participation also and participation from all the top tech institutions in India. Last edition had over 20k participation cumulatively"
         },
         {
       "name": "Surprise Language",
-      "src": "/images/euristica.svg",
-      "content": "Surprise Language is another programming event. Similar to Code Golf, it is another short-duration event which requires basic programming skills. The event requires the programmer to solve the problem in the given programming language which is announced just 10 minutes before the event. Scoring will be based on the number of problems solved. This is a new addition to Euristica this year."
+      "src": "/sl.png",
+      "content": "Pan-India level competitions and hackathons with international participation also and participation from all the top tech institutions in India. Last edition had over 20k participation cumulatively"
         },
         {
       "name": "Hackistica",
-      "src": "/images/euristica.svg",
-      "content": "Hackistica is a team development long duration (24 to 48 hours) event requiring participants to implement a working and user-friendly software/website. Contestants must choose a problem statement from the provided ones and implement it with the technological stack they pursue. The contest's main aim is to develop innovative solutions to real-life problems. Scoring will be based on the quality and applicability of the end product."
+      "src": "/hackistica.png",
+      "content": "Pan-India level competitions and hackathons with international participation also and participation from all the top tech institutions in India. Last edition had over 20k participation cumulatively"
         },
         {
       "name": "Byte Bandits CTF",
-      "src": "/images/euristica.svg",
-      "content": "A special kind of cybersecurity competition designed to challenge its participants with state-of-the-art computer security problems that capture/defend computer systems. Our CTF is an online jeopardy CTF. The event will be 6-12 hours, and we expect a participation of 50+ teams, with each team consisting of 4 members. Jeopardy-style CTFs have several questions (tasks) in various categories. For example, Web, Forensic, Crypto, Binary, or something else."
+      "src": "/ctf.png",
+      "content": "Pan-India level competitions and hackathons with international participation also and participation from all the top tech institutions in India. Last edition had over 20k participation cumulatively"
         },
         {
       "name": "Enosium",
