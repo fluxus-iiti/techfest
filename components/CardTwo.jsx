@@ -63,9 +63,9 @@ function CardTwo(props) {
               fontFamily: ["JetBrains Mono", "monospace"],
               fontSize: "15px",
               lineHeight: "1",
-              display:"flex",
-              paddingVertical:0,
-              marginBottom:0,
+              display: "flex",
+              paddingVertical: 0,
+              marginBottom: 0,
               justifyContent: "center",
               alignItems: "center",
               clipPath:
@@ -74,23 +74,25 @@ function CardTwo(props) {
           >
             <b>Details</b>
           </button>
-          <button
-            className="one text-black w-100"
-            style={{
-              fontFamily: ["JetBrains Mono", "monospace"],
-              fontSize: "15px",
-              lineHeight: "1",
-              display:"flex",
-              paddingVertical:0,
-              marginBottom:0,
-              justifyContent: "center",
-              alignItems: "center",
-              clipPath:
-                "polygon(12px 0px, 100% 0px, 100% 72%, calc(100% - 12px) 100%, 0px 100%, 0px 12px)",
-            }}
-          >
-            <b>Register</b>
-          </button>
+          <a href={props.details.link}>
+            <button
+              className="one text-black w-100"
+              style={{
+                fontFamily: ["JetBrains Mono", "monospace"],
+                fontSize: "15px",
+                lineHeight: "1",
+                display: "flex",
+                paddingVertical: 0,
+                marginBottom: 0,
+                justifyContent: "center",
+                alignItems: "center",
+                clipPath:
+                  "polygon(12px 0px, 100% 0px, 100% 72%, calc(100% - 12px) 100%, 0px 100%, 0px 12px)",
+              }}
+            >
+              <b>{props.details.button}</b>
+            </button>
+          </a>
         </div>
       </div>
       <Modal
@@ -101,11 +103,11 @@ function CardTwo(props) {
       >
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1}}
+          animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transform={{
             duration: 2,
-            delay: 1
+            delay: 1,
           }}
         >
           <Box sx={style}>

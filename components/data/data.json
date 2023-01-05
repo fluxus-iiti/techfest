@@ -1,74 +1,102 @@
 {
   "resources": [
-      {
-    "name": "Divide By Zero",
-    "src": "/divideByZero.png",
-    "content": "Pan-India level competitions and hackathons with international participation also and participation from all the top tech institutions in India. Last edition had over 20k participation cumulatively"
-      },
-      {
-    "name": "Code Golf",
-    "src": "/code golf.png",
-    "content": "Code Golf is a programming event far from the usual ‘serious’ programming contests. It is an individual short-duration (3 to 4 hours) programming event conducted on HackerRank with the prerequisites of basic programming skills. The event requires the programmer to solve the problem in the shortest possible code. Scoring will be based on the length of the code written."
-      },
-      {
-    "name": "Surprise Language",
-    "src": "/sl.png",
-    "content": "Surprise Language is another programming event. Similar to Code Golf, it is another short-duration event which requires basic programming skills. The event requires the programmer to solve the problem in the given programming language which is announced just 10 minutes before the event. Scoring will be based on the number of problems solved. This is a new addition to Euristica this year."
-      },
-      {
-    "name": "Hackistica",
-    "src": "/hackistica.png",
-    "content": "Hackistica is a team development long duration (24 to 48 hours) event requiring participants to implement a working and user-friendly software/website. Contestants must choose a problem statement from the provided ones and implement it with the technological stack they pursue. The contest's main aim is to develop innovative solutions to real-life problems. Scoring will be based on the quality and applicability of the end product."
-      },
-      {
-    "name": "Byte Bandits CTF",
-    "src": "/ctf.png",
-    "content": "A special kind of cybersecurity competition designed to challenge its participants with state-of-the-art computer security problems that capture/defend computer systems. Our CTF is an online jeopardy CTF. The event will be 6-12 hours, and we expect a participation of 50+ teams, with each team consisting of 4 members. Jeopardy-style CTFs have several questions (tasks) in various categories. For example, Web, Forensic, Crypto, Binary, or something else."
-      },
-      {
-    "name": "Enosium",
-    "src": "/images/enosium.png",
-    "content": "Énosium is a pan-India Hackathon which involves the domains of AI/ML as well as Web Development, and is meant to encourage the development of interdisciplinary skills and teamwork among people with different technical backgrounds to work on a common solution."
-      },
-      {
-    "name": "Building Blochs",
-    "src": "/images/blochs.png",
-    "content": "Pan-India level competition. Domains include PQC, QML, Chemistry Simulations, Quantum Optimization and Quantum chip design.Event will connect people with all levels of experience in Quantum Computing. It is also expected to enhance their understanding about the principles and"
-      },
-      {
-    "name": "Redesign",
-         "src": "/images/redesign.png",
-    "content": "The event consists of Electronic Circuit Simulation & Design pertaining to a specific set of system.The domains would be Analog Design, Digital LogicImplementation, Micro - Controllers, Micro Processors, IOT"
-      },
-      {
-    "name": "Nakshatra",
-    "src": "/images/nakshatra.png",
-    "content": "Nakshatra is the Flagship event of The Astronomy Club, IIT Indore. The event is an accumulation of Case Study Challenges, Workshops, Data Analysis, Talks and fun activities."
-      },
-      {
-    "name": "Concastle",
-    "src": "/images/concastle.png",
-    "content": "This event focuses on providing solution to the problem of design mix, which a very important factor in determining the project cost and safety of concrete and in the optimization of the same."
-      },
-      {
-    "name": "Top Gear",
-    "src": "/images/topgear.png",
-    "content": "Pan-India level competition. The domains involved are Automotive Design (CAD, Concept designing), Hardware (Controls and Electronic Subsystems) and Software (Algorithms and Simulation)"
-      },
-      {
-    "name": "Fin Week",
-    "src": "/DBZposter.jpeg",
-    "content": "Pan-India level competitions oncase study challenge, algo trading,paper trading and blockchain,covering all top B-Schools and techinstitutes in India. Last edition hadover 1k paricipation in teams."
-      },
-      {
-    "name": "MetaBizz",
-    "src": "/images/metabizz.png",
-    "content": "MetaBizz is the flagship event of Metacryst Club, IIT Indore. MetaBizz encourages students to compete with best of the minds from across the country, getting hands-on experience in a time constrained competition with looking over their focus and knowledge level in the field of Material Science."
-      },
-      {
-    "name": "Overtinker",
-    "src": "/images/overtinker.png",
-    "content": "This event will lead to testing as well as enhancing the knowledge of electronic components and sensors involved in the domain of robotics among participants. It will be a Pan-India level event."
-      }
+    {
+      "name": "Divide By Zero",
+      "src": "/divideByZero.png",
+      "content": "Pan-India level competitions and hackathons with international participation also and participation from all the top tech institutions in India. Last edition had over 20k participation cumulatively",
+      "button": "Completed",
+      "link": "https://codeforces.com/blog/entry/110404"
+    },
+    {
+      "name": "Code Golf",
+      "src": "/code golf.png",
+      "content": "Code Golf is a programming event far from the usual ‘serious’ programming contests. It is an individual short-duration (3 to 4 hours) programming event conducted on HackerRank with the prerequisites of basic programming skills. The event requires the programmer to solve the problem in the shortest possible code. Scoring will be based on the length of the code written.",
+      "button": "Coming Soon...",
+      "link": ""
+    },
+    {
+      "name": "Surprise Language",
+      "src": "/sl.png",
+      "content": "Surprise Language is another programming event. Similar to Code Golf, it is another short-duration event which requires basic programming skills. The event requires the programmer to solve the problem in the given programming language which is announced just 10 minutes before the event. Scoring will be based on the number of problems solved. This is a new addition to Euristica this year.",
+      "button": "Coming Soon...",
+      "link": ""
+    },
+    {
+      "name": "Hackistica",
+      "src": "/hackistica.png",
+      "content": "Hackistica is a team development long duration (24 to 48 hours) event requiring participants to implement a working and user-friendly software/website. Contestants must choose a problem statement from the provided ones and implement it with the technological stack they pursue. The contest's main aim is to develop innovative solutions to real-life problems. Scoring will be based on the quality and applicability of the end product.",
+      "button": "Coming Soon...",
+      "link": ""
+    },
+    {
+      "name": "Byte Bandits CTF",
+      "src": "/ctf.png",
+      "content": "A special kind of cybersecurity competition designed to challenge its participants with state-of-the-art computer security problems that capture/defend computer systems. Our CTF is an online jeopardy CTF. The event will be 6-12 hours, and we expect a participation of 50+ teams, with each team consisting of 4 members. Jeopardy-style CTFs have several questions (tasks) in various categories. For example, Web, Forensic, Crypto, Binary, or something else.",
+      "button": "Coming Soon...",
+      "link": ""
+    },
+    {
+      "name": "Enosium",
+      "src": "/images/enosium.png",
+      "content": "Énosium is a pan-India Hackathon which involves the domains of AI/ML as well as Web Development, and is meant to encourage the development of interdisciplinary skills and teamwork among people with different technical backgrounds to work on a common solution.",
+      "button": "Coming Soon...",
+      "link": ""
+    },
+    {
+      "name": "Building Blochs",
+      "src": "/images/blochs.png",
+      "content": "Pan-India level competition. Domains include PQC, QML, Chemistry Simulations, Quantum Optimization and Quantum chip design.Event will connect people with all levels of experience in Quantum Computing. It is also expected to enhance their understanding about the principles and",
+      "button": "Coming Soon...",
+      "link": ""
+    },
+    {
+      "name": "Redesign",
+      "src": "/images/redesign.png",
+      "content": "The event consists of Electronic Circuit Simulation & Design pertaining to a specific set of system.The domains would be Analog Design, Digital LogicImplementation, Micro - Controllers, Micro Processors, IOT",
+      "button": "Coming Soon...",
+      "link": ""
+    },
+    {
+      "name": "Nakshatra",
+      "src": "/images/nakshatra.png",
+      "content": "Nakshatra is the Flagship event of The Astronomy Club, IIT Indore. The event is an accumulation of Case Study Challenges, Workshops, Data Analysis, Talks and fun activities.",
+      "button": "Coming Soon...",
+      "link": ""
+    },
+    {
+      "name": "Concastle",
+      "src": "/images/concastle.png",
+      "content": "This event focuses on providing solution to the problem of design mix, which a very important factor in determining the project cost and safety of concrete and in the optimization of the same.",
+      "button": "Coming Soon...",
+      "link": ""
+    },
+    {
+      "name": "Top Gear",
+      "src": "/images/topgear.png",
+      "content": "Pan-India level competition. The domains involved are Automotive Design (CAD, Concept designing), Hardware (Controls and Electronic Subsystems) and Software (Algorithms and Simulation)",
+      "button": "Coming Soon...",
+      "link": ""
+    },
+    {
+      "name": "Fin Week",
+      "src": "/DBZposter.jpeg",
+      "content": "Pan-India level competitions oncase study challenge, algo trading,paper trading and blockchain,covering all top B-Schools and techinstitutes in India. Last edition hadover 1k paricipation in teams.",
+      "button": "Coming Soon...",
+      "link": ""
+    },
+    {
+      "name": "MetaBizz",
+      "src": "/images/metabizz.png",
+      "content": "MetaBizz is the flagship event of Metacryst Club, IIT Indore. MetaBizz encourages students to compete with best of the minds from across the country, getting hands-on experience in a time constrained competition with looking over their focus and knowledge level in the field of Material Science.",
+      "button": "Coming Soon...",
+      "link": ""
+    },
+    {
+      "name": "Overtinker",
+      "src": "/images/overtinker.png",
+      "content": "This event will lead to testing as well as enhancing the knowledge of electronic components and sensors involved in the domain of robotics among participants. It will be a Pan-India level event.",
+      "button": "Coming Soon...",
+      "link": ""
+    }
   ]
 }
