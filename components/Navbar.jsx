@@ -4,6 +4,7 @@ import Button from "./Button";
 import Progress from "./Progress";
 import { motion } from "framer-motion";
 import { styled } from "@mui/material/styles";
+import Router, { useRouter } from "next/router";
 import Header from "./Header";
 import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
 
@@ -28,10 +29,10 @@ const links = [
 ];
 
 function Navbar() {
+  const router = useRouter();
   const [dropdown, setDropdown] = useState("");
   const registerHandler = () => {
-    console.log("C");
-    alert("Clicked");
+    router.push("/competitions");
   };
 
   const hoverHandler = (name) => {
