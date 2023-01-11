@@ -24,6 +24,25 @@ function CardTwo(props) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+  const isDevfolio=function(){
+    if(props.devfolio){
+      return
+       
+    }else{
+      return
+      
+    }
+  }
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
   return (
     <motion.div
       className="flux flex items-center h-[300px] justify-center relative overflow-hidden rounded-lg shadow-lg cursor-pointer x-100 md:w-[20vw] msm:w-[35vw] xsm:w-[75vw]"
@@ -55,8 +74,15 @@ function CardTwo(props) {
           Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen
           tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.
         </p> */}
-        <div className="grid grid-cols-2 md:gap-2 sm:gap-2 xsm:gap-2 xxsm:gap-2">
-          <button
+        <div className="grid grid-cols-2 md:gap-2 sm:gap-2 xsm:gap-2 xxsm:gap-2 flex justify-center items-center ">
+          
+          {props.details.devfolio && ( <div 
+          class="apply-button dev-btn" 
+          data-hackathon-slug={props.details.devfolioSlug} 
+          data-button-theme="dark"
+          style={{height: "44px", width: "100px", fontSize:"10px"}}
+        ></div>)}
+        {!props.details.devfolio && (<button
             onClick={() => setOpen(true)}
             className="four text-black w-100"
             style={{
@@ -73,26 +99,28 @@ function CardTwo(props) {
             }}
           >
             <b>Details</b>
-          </button>
-          <a href={props.details.link}>
-            <button
-              className="one text-black w-100"
-              style={{
-                fontFamily: ["JetBrains Mono", "monospace"],
-                fontSize: "15px",
-                lineHeight: "1",
-                display: "flex",
-                paddingVertical: 0,
-                marginBottom: 0,
-                justifyContent: "center",
-                alignItems: "center",
-                clipPath:
-                  "polygon(12px 0px, 100% 0px, 100% 72%, calc(100% - 12px) 100%, 0px 100%, 0px 12px)",
-              }}
-            >
-              <b>{props.details.button}</b>
-            </button>
-          </a>
+          </button>)}
+        {!props.details.devfolio && (
+        <a href={props.details.link}>
+      <button
+        className="one text-black w-100"
+        style={{
+          fontFamily: ["JetBrains Mono", "monospace"],
+          fontSize: "15px",
+          lineHeight: "1",
+          display: "flex",
+          paddingVertical: 0,
+          marginBottom: 0,
+          justifyContent: "center",
+          alignItems: "center",
+          clipPath:
+            "polygon(12px 0px, 100% 0px, 100% 72%, calc(100% - 12px) 100%, 0px 100%, 0px 12px)",
+        }}
+      >
+        <b>{props.details.button}</b>
+      </button>
+    </a>)}
+          
         </div>
       </div>
       <Modal
