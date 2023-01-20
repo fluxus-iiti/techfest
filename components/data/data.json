@@ -11,15 +11,15 @@
       "name": "Code Golf",
       "src": "/code golf.png",
       "content": "Code Golf is a programming event far from the usual ‘serious’ programming contests. It is an individual short-duration (3 to 4 hours) programming event conducted on HackerRank with the prerequisites of basic programming skills. The event requires the programmer to solve the problem in the shortest possible code. Scoring will be based on the length of the code written.",
-      "button": "Coming Soon...",
-      "link": ""
+      "button": "Register",
+      "link": "https://www.hackerrank.com/code-golf-7-0"
     },
     {
       "name": "Surprise Language",
       "src": "/sl.png",
       "content": "Surprise Language is another programming event. Similar to Code Golf, it is another short-duration event which requires basic programming skills. The event requires the programmer to solve the problem in the given programming language which is announced just 10 minutes before the event. Scoring will be based on the number of problems solved. This is a new addition to Euristica this year.",
-      "button": "Coming Soon...",
-      "link": ""
+      "button": "Register",
+      "link": "https://www.hackerrank.com/surprise-language-6-0"
     },
     {
       "name": "Hackistica",
