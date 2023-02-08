@@ -33,9 +33,9 @@
     {
       "name": "Byte Bandits CTF",
       "src": "/ctf.png",
-      "content": "A special kind of cybersecurity competition designed to challenge its participants with state-of-the-art computer security problems that capture/defend computer systems. Our CTF is an online jeopardy CTF. The event will be 6-12 hours, and we expect a participation of 50+ teams, with each team consisting of 4 members. Jeopardy-style CTFs have several questions (tasks) in various categories. For example, Web, Forensic, Crypto, Binary, or something else.",
-      "button": "Coming Soon...",
-      "link": ""
+      "content": "A special kind of cybersecurity competition designed to challenge its participants with state-of-the-art computer security problems that capture/defend computer systems. Our CTF was a 24 hours online jeopardy style CTF. A Jeopardy-style CTF generally have several challenges in various categories like Web, Forensic, Crypto, Pwn, Revering and Blockchain. This Year we recieved a participation of 500+ teams with each team consisting of 1-4 members.",
+      "button": "Completed",
+      "link": "https://ctftime.org/event/1877"
     },
     {
       "name": "Enosium",
